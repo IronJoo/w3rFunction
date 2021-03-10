@@ -6,14 +6,16 @@ namespace w3rFunction //{}
     {
         public static void Main(string[] args)
         {
-            Welcome();
+            Console.WriteLine("Please input a name: ");
+            string name = Console.ReadLine();
+            Welcome(name);
 
             Console.ReadLine();
         }
 
-        public static void Welcome()
+        public static void Welcome(string name)
         {
-            Console.WriteLine("Welcome Friends!\nHave a nice day!");
+            Console.WriteLine($"Welcome friend {name}!\nHave a nice day!");
         }
     }
 }
