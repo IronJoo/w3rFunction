@@ -2,7 +2,7 @@
 
 namespace w3rFunction //{}
 {
-    class Exercise1
+    class Exercise2
     {
         public static void Main(string[] args)
         {
